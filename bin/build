@@ -1,10 +1,4 @@
 #!/bin/bash
 
-# This is the cheap-and-easy way to handle the inclusion of files
-# from outside the Docker build context. That is, copy them here.
-
 cd /home/jared/work/home/wordzoo-web-apex-wrapper
-rm -rf site
-mkdir site
-cp -a /home/jared/work/home/jared-homepage-vue/homeapp/dist/* site/
 flyctl deploy
