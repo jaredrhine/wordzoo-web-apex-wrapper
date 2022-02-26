@@ -2,7 +2,7 @@
 
 Repository URL: https://github.com/jaredrhine/wordzoo-web-apex-wrapper
 
-Author: Jared Rhine <jared@wordzoo.com>
+Author: Jared Rhine <<jared@wordzoo.com>>
 
 Keywords: HTTP proxy, apex domains, wordzoo.com
 
