@@ -6,5 +6,5 @@ FROM caddy:2-alpine
 
 MAINTAINER Jared Rhine <jared@wordzoo.com>
 
-COPY --chown root:root caddy.conf /etc/caddy/Caddyfile
-COPY --chown root:root site/ /srv
+COPY --chown=root:root caddy.conf /etc/caddy/Caddyfile
+COPY --chown=root:root site/ /srv
